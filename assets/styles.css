@@ -1,0 +1,153 @@
+
+:root{
+    --primary-color: #4B6587;
+    --secondary-color: #F0E5CF;
+    --accent-color: #C8C6C6;
+    --accent2-color: #F7F6F2 ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--secondary-color);
+}
+
+/* Header Styles */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.navbar{
+    margin: 7px 0;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-colorcolor);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* About Me Styles */
+
+.profile-card{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    padding: 10px;
+    background: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.profile-info img{
+   border-radius: 50%;
+   border: 3px solid var(--accent2-color);
+   margin: 1rem;
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+}
+
+.bio{
+    padding: 25px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.bio h2{
+    font-size: 32px;
+    padding: 0 0 15px 0;
+}
+
+/* Work Experience Section */
+
+.live-links{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.live-link-rb{
+    background: url(./images/hero-bg.jpg);
+}
+
+.live-link-hori{
+    background: url(./images/digital-marketing-meeting.jpg);
+}
+
+.live-link-jw{
+    background: url(./images/Jake-Wilson-Art.png);
+}
+
+.live-links-box{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    height: 400px;
+    margin: 2vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.live-links-text{
+    margin: auto;
+    width: 30%;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+}
+
+.live-links-text a button{
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+
