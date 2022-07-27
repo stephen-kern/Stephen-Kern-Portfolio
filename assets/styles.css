@@ -69,6 +69,7 @@ header nav ul li a:hover {
 .profile-card{
     width: 95%;
     margin: 6vh auto;
+    padding-bottom: 8vh;
 }
 
 .profile-info{
@@ -106,7 +107,7 @@ header nav ul li a:hover {
 .section-title{
     text-align: center;
     font-size: 32px;
-    padding: 15px 0;
+    padding: 5px;
     color: var(--primary-color);   
 }
 
@@ -153,6 +154,7 @@ header nav ul li a:hover {
     display: flex;
     margin: 2vh auto;
     justify-content: center;
+    padding-bottom: 8vh;
 }
 
 .live-links-text{
@@ -179,4 +181,35 @@ header nav ul li a:hover {
 }
 
 /* Contact Section Styles */
+
+.section-title-secondary{
+    text-align: center;
+    font-size: 32px;
+    padding: 25px;
+    color: var(--accent2-color);   
+}
+
+.contact-bg{
+    background-color: var(--primary-color);
+    min-height: 100px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-info{
+    margin: 5px 0 25px;
+}
+
+.contact-info img{
+    width: 50px;
+    height: 50px;
+} 
+
+.contact-info img:hover{
+    transform: translateY(-7px);
+}
+
 
