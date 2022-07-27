@@ -112,9 +112,9 @@ header nav ul li a:hover {
 }
 
 .flex-long{
-    width: 80%;
+    max-width: 98%;
+    margin: 0 auto;
     min-height: 100%;
-    margin: 4vh auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,37 +122,34 @@ header nav ul li a:hover {
 
 .live-link-rb{
     background: url(./images/hero-bg.jpg);
-    width: 98%;
+    flex-basis: 98%;
 }
 
 .live-link-hori{
     background: url(./images/digital-marketing-meeting.jpg);
     flex-basis: 100%;
-    margin: 2vh;
-
 }
 
 .live-link-jw{
     background: url(./images/Jake-Wilson-Art.png);
     flex-basis: 100%;
-    margin: 2vh;
-
 }
 
 .live-links-box{
     display: flex;
+    justify-content: center;
     background-size: cover;
     background-position: center;
     min-height: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
+    margin: 1rem;
 }
 
 .flex-row-short{
-    max-width: 81%;
+    margin: 0 auto;
     min-height: 100%;
     display: flex;
-    margin: 2vh auto;
     justify-content: center;
     padding-bottom: 8vh;
 }
@@ -160,7 +157,6 @@ header nav ul li a:hover {
 .live-links-text{
     margin: auto;
     width: 40%;
-    /* height: 55px; */
     text-align: center;
     align-items: center;
 }
@@ -204,12 +200,64 @@ header nav ul li a:hover {
 }
 
 .contact-info img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 } 
 
 .contact-info img:hover{
     transform: translateY(-7px);
 }
 
+/* Media Queries */
 
+@media screen and (max-width: 980px){
+    .navbar ul li a{
+        font-size: 2vh;
+    }
+
+    .profile-card{
+        padding-bottom: 1.4rem;
+    }
+
+    .flex-row-short{
+        padding-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .profile-info{
+        flex-direction: column;
+    }
+
+    .navbar ul li a{
+        font-size: 2vh;
+    }
+
+    .navbar{
+        margin-top: 1.5rem;
+    }
+
+    header{
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 95%;
+    }
+
+    .live-link-rb{
+        max-width: 98%;
+    }
+
+    .contact-info img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+}
