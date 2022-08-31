@@ -54,7 +54,7 @@ header a {
 .navbar ul li a {
     padding: 10px 15px;
     font-weight: 400;
-    font-size: 1.55vw;
+    font-size: 1.2rem;
 }
 
 header nav ul li a:hover {
@@ -135,6 +135,11 @@ header nav ul li a:hover {
     flex-basis: 100%;
 }
 
+.live-link-S2R{
+    background: url(./images/Step2Rythym.png);
+    flex-basis: 100%;
+}
+
 .live-links-box{
     display: flex;
     justify-content: center;
@@ -212,7 +217,7 @@ header nav ul li a:hover {
 
 @media screen and (max-width: 980px){
     .navbar ul li a{
-        font-size: 2vh;
+        font-size: 1rem;
     }
 
     .profile-card{
@@ -230,7 +235,7 @@ header nav ul li a:hover {
     }
 
     .navbar ul li a{
-        font-size: 2vh;
+        font-size: 1rem;
     }
 
     .navbar{
