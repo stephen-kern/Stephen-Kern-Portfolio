@@ -130,6 +130,11 @@ header nav ul li a:hover {
     flex-basis: 100%;
 }
 
+.live-link-HH{
+    background: url(./images/Burger-Assistant.png);
+    flex-basis: 100%;
+}
+
 .live-link-jw{
     background: url(./images/Jake-Wilson-Art.png);
     flex-basis: 100%;
